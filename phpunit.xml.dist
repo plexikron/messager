@@ -17,7 +17,7 @@
         </include>
     </coverage>
     <testsuites>
-        <testsuite name="Chronicler Test Suite">
+        <testsuite name="Messager Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

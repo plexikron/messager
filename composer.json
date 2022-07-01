@@ -21,6 +21,8 @@
         "laravel/framework": "9.x",
         "phpspec/prophecy-phpunit": "dev-master",
         "phpunit/phpunit": "^9.5",
+        "orchestra/testbench" : "7.*",
+        "nunomaduro/larastan" : "^2.0",
         "roave/security-advisories": "dev-master",
         "laravel/pint": "^0.2.1"
     },

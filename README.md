@@ -1,4 +1,4 @@
-# Chronicler
+# Messager
 
 Central library for
 messaging, reporter, projector and snapshot packages.  
@@ -8,7 +8,7 @@ A combination and rewrite of the [prooph event store v7](https://github.com/proo
 
 ## Install
 
-`composer require chronhub/messager`
+`composer require plexikron/messager`
 
 ## Tests
 
