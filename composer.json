@@ -1,0 +1,51 @@
+{
+    "name": "chronhub/messager",
+    "description": "cqrs",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "steph bug",
+            "email": "plexikongit@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "react/promise" : "^2.9",
+        "ramsey/uuid": "4.2.2",
+        "ext-pdo": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "jetbrains/phpstorm-attributes": "9999999-dev",
+        "laravel/framework": "9.x",
+        "phpspec/prophecy-phpunit": "dev-master",
+        "phpunit/phpunit": "^9.5",
+        "roave/security-advisories": "dev-master",
+        "laravel/pint": "^0.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chronhub\\Messager\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chronhub\\Messager\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "pint" : "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "dont-discover": []
+        }
+    },
+    "minimum-stability": "dev"
+}
